@@ -2,29 +2,6 @@
 
 ### IMDb Movie Review Sentiment Analysis \| NLP • Machine Learning • Streamlit
 
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Turn natural-language movie reviews into instant sentiment
-predictions.`</b>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<a href="https://dmekvxnyfups4ouvwbkjs4.streamlit.app/">`{=html}🌐 Live
-Demo`</a>`{=html} •
-`<a href="https://github.com/Chaitanya-G53/Sentiment-Analysis">`{=html}💻
-GitHub`</a>`{=html} •
-`<a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">`{=html}📊
-Dataset`</a>`{=html}
-```{=html}
-</p>
-```
-
-------------------------------------------------------------------------
-
 ## 📌 Overview
 
 **SentimentAI** is an end-to-end Natural Language Processing project
