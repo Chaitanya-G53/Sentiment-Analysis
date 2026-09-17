@@ -38,16 +38,9 @@ real-time prediction.
 
 ### Try it yourself
 
-```
-{=html}
-<p align="center">
-```
+
 **👉 [OPEN SENTIMENTAI](https://dmekvxnyfups4ouvwbkjs4.streamlit.app/)**
 
-```
-{=html}
-</p>
-```
 Enter a movie review and the application processes the text through the
 saved NLP pipeline before displaying the predicted sentiment and
 confidence value.
@@ -69,7 +62,7 @@ and returning its sentiment prediction.
 
 ## 🧠 How It Works
 
-``` text
+``` 
                     USER REVIEW
                          │
                          ▼
@@ -125,7 +118,7 @@ Before converting text into numerical features, the reviews are cleaned.
 
 ### Processing steps
 
-``` text
+```  
 Raw Review
     ↓
 Remove HTML tags
@@ -143,13 +136,13 @@ Clean Review
 
 **Before**
 
-``` text
+```  
 "This movie was AMAZING!!! <br /><br /> I loved it."
 ```
 
 **After**
 
-``` text
+```  
 "this movie was amazing i loved it"
 ```
 
@@ -170,20 +163,19 @@ This converts textual information into a numerical representation that
 can be processed by the machine-learning classifier.
 
 ------------------------------------------------------------------------
-
 ## 🤖 Machine Learning
 
 ### Model Used
 
 **Multinomial Naive Bayes**
 
-``` python
+```  
 MultinomialNB()
 ```
 
 The project uses an **80/20 train-test split** with `random_state=42`.
 
-``` text
+```  
 80% → Training
 20% → Testing
 ```
@@ -215,7 +207,7 @@ as:
 After training, the model and vectorizer are serialized so the Streamlit
 application can load them directly.
 
-``` text
+```  
 Training
    │
    ├── TF-IDF Vectorizer
@@ -229,7 +221,7 @@ Training
 
 During prediction:
 
-``` text
+```  
 User Text
    ↓
 Preprocessing
@@ -275,7 +267,7 @@ Confidence
 
 ## 📁 Project Structure
 
-``` text
+``` 
 Sentiment-Analysis/
 │
 ├── 📓 SentimentAnalysis.ipynb
@@ -295,14 +287,14 @@ Sentiment-Analysis/
 
 ### Input
 
-``` text
+```  
 I absolutely loved this movie. The story was engaging
 and the performances were excellent.
 ```
 
 ### Application Output
 
-``` text
+``` 
 Sentiment : Positive
 Confidence: Displayed by the application
 ```
