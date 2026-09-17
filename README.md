@@ -1,3 +1,6 @@
+🎬 SentimentAI
+IMDb Movie Review Sentiment Analysis | NLP • Machine Learning • Streamlit
+
 📌 Overview
 SentimentAI is an end-to-end Natural Language Processing project that analyzes movie reviews and predicts whether the expressed sentiment is Positive or Negative.
 
