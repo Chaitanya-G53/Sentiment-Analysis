@@ -38,12 +38,14 @@ real-time prediction.
 
 ### Try it yourself
 
-```{=html}
+```
+{=html}
 <p align="center">
 ```
 **👉 [OPEN SENTIMENTAI](https://dmekvxnyfups4ouvwbkjs4.streamlit.app/)**
 
-```{=html}
+```
+{=html}
 </p>
 ```
 Enter a movie review and the application processes the text through the
